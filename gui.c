@@ -786,7 +786,7 @@ void gui_finestra_credits()
 {
     GtkWidget* finestra = NULL;
     finestra = gtk_message_dialog_new(GTK_WINDOW(finestra), GTK_DIALOG_DESTROY_WITH_PARENT,GTK_MESSAGE_INFO, GTK_BUTTONS_OK,
-                                                "\nDavide Gessa  -  dagide@yahoo.it\n\nGianmarco Cherchi  -  gianmarcher@gmail.com\n\nSara Casti  -  sara_casti91@hotmail.it\n");
+                                                "This software is released under the terms of GPLv3\nDavide Gessa  -  gessadavide@gmail.com\n\nGianmarco Cherchi  -  gianmarcher@gmail.com\n\nSara Casti  -  sara_casti91@hotmail.it\n");
 
     gtk_window_set_title(GTK_WINDOW(finestra), "Due's Game - Credits");
 
